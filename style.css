@@ -1,0 +1,126 @@
+html{
+	font-family: "arial", verdana, sans-serif;
+	font-size:.625em;
+	line-height:1.5;
+	letter-spacing:.15rem;
+	margin:0;
+	padding:0;
+}
+body{
+    
+    margin:0;
+	padding:0;
+}
+h2{
+    font-size:4em;
+}
+
+/*transition*/
+.transition{
+    height: auto;
+    text-align: center;
+}
+
+.transition p {
+    width: 80%;
+    margin: 9vh auto;
+    font-size: 2em;
+}
+
+/*couleur*/
+.white{
+    color: white;
+}
+
+.greyS{
+color: rgb(107, 107, 107);
+}
+
+.backSombre{
+    background-color: rgb(78, 78, 78);
+}
+.backclaire{
+    background-color: rgb(223, 219, 219);
+}
+
+.backclaireS{
+    background-color: rgb(194, 192, 192);
+}
+
+
+
+/*header*/
+header{
+    height: 50vh;
+    display: flex;
+    padding-left: 10%;
+}
+img{
+    height: 30vh;
+    width: auto;
+}
+header div{
+    margin: 5% 5%;
+    text-align: center;
+}
+h1{
+    font-size:5.50em;
+}
+header p{
+    font-size: 1.5em;
+}
+/*articel1*/
+table{
+    width: 80%;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+table:first-child tr{
+    height: 0.2vh;
+}
+.sect_table{
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.sect_table section{
+    width: 45%;
+}
+
+.hobbies{
+    padding-top: 5%;
+}
+
+.hobbies h2{
+    border-bottom: 5px solid white;
+}
+.hobbies li{
+    font-size: 2.5em;
+}
+/*story*/
+.story{
+    padding: 5% 10%;
+}
+.story p{
+    font-size: 2em;
+}
+/*footer*/
+
+footer{
+    height: 5vh;
+    padding-top: 1%;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 0 2vw;
+    font-size: 1.5em;
+}
